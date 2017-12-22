@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+html, body, .box {
+  width: 100%;
+  height: 100%; }
+
+header {
+  width: 4.4rem;
+  height: 0.35rem;
+  background-color: #fff;
+  display: flex;
+  padding: 0.16rem 0.17rem 0.15rem 0.23rem;
+  align-items: center; }
+  header img {
+    width: 1.58rem;
+    height: 0.38rem;
+    float: left; }
+  header span {
+    font-size: 0.17rem;
+    float: left;
+    margin-left: 0.22rem;
+    color: #cccccc; }
+  header .list {
+    float: left;
+    margin-left: 1.63rem; }
+    header .list p {
+      width: 0.29rem;
+      height: 0.03rem;
+      background-color: #666666;
+      margin-bottom: 0.04rem; }
+
+section {
+  width: 4.8rem;
+  height: 2.11rem; }
+  section .swiper-container {
+    width: 100%;
+    height: 100%; }
+    section .swiper-container .swiper-wrapper {
+      width: 100%;
+      height: 100%; }
+      section .swiper-container .swiper-wrapper img {
+        display: block;
+        width: 4.8rem;
+        height: 2.11rem; }
+
+.area {
+  width: 4.8rem;
+  height: 2.9rem;
+  background-color: #fff;
+  overflow: hidden; }
+  .area .tit {
+    width: 4.51rem;
+    height: 0.21rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.21rem 0.14rem 0.18rem 0.15rem; }
+    .area .tit span {
+      font-size: 0.21rem; }
+      .area .tit span:nth-child(2) {
+        font-size: 0.18rem; }
+  .area .swiper-container-2 {
+    width: 100%;
+    height: 2.3rem; }
+    .area .swiper-container-2 .swiper-wrapper {
+      width: 1.26rem;
+      height: 100%; }
+      .area .swiper-container-2 .swiper-wrapper .swiper-slide {
+        height: 2.07rem;
+        text-align: center;
+        display: block; }
+        .area .swiper-container-2 .swiper-wrapper .swiper-slide .img1 {
+          display: block;
+          height: 1.69rem; }
+        .area .swiper-container-2 .swiper-wrapper .swiper-slide .p1 {
+          display: block;
+          font-size: 0.14rem;
+          margin-top: 0.2rem; }
+
+.t {
+  width: 4.8rem;
+  height: 0.18rem;
+  background-color: #f2f2f2; }
+
+.area1 {
+  width: 4.8rem;
+  height: 100%; }
+  .area1 .tit1 {
+    width: 4.65rem;
+    height: 0.42rem;
+    padding: 0.21rem 0 0 0.15rem; }
+    .area1 .tit1 p {
+      font-size: 0.2rem; }
+  .area1 .test {
+    width: 4.62rem;
+    height: 1.27rem;
+    margin-left: 0.18rem; }
+    .area1 .test img {
+      width: 1.92rem;
+      height: 1.2rem;
+      float: left; }
+    .area1 .test .div2 {
+      float: left; }
+      .area1 .test .div2 p {
+        font-size: 0.23rem;
+        margin-left: 0.18rem; }
+        .area1 .test .div2 p:nth-child(2) {
+          margin-top: 0.37rem; }
+          .area1 .test .div2 p:nth-child(2) span {
+            display: inline-block;
+            border: 1px solid #88c7f9;
+            box-sizing: border-box;
+            color: #88c7f8;
+            padding: 0.02rem;
+            margin-left: 0.13rem; }
+
+footer {
+  width: 4.8rem;
+  height: 0.64rem;
+  box-sizing: border-box;
+  border-top: 2px solid #f8f8f8;
+  display: flex;
+  justify-content: space-between; }
+  footer div {
+    float: left;
+    width: 0.5rem;
+    height: 100%;
+    margin-right: 0.4rem;
+    text-align: center; }
+    footer div:nth-child(1) {
+      margin-left: 0.44rem; }
+    footer div img {
+      display: block;
+      margin-top: 0.06rem;
+      margin-left: 0.09rem; }
+    footer div .img2 {
+      width: 0.32rem;
+      height: 0.29rem; }
+    footer div .img3 {
+      width: 0.28rem;
+      height: 0.31rem; }
+    footer div .img4 {
+      width: 0.32rem;
+      height: 0.29rem; }
+    footer div .img5 {
+      width: 0.28rem;
+      height: 0.29rem; }
+    footer div .img6 {
+      width: 0.32rem;
+      height: 0.31rem; }
+    footer div p {
+      font-size: 0.16rem;
+      margin-top: 0.08rem; }
+
+/*# sourceMappingURL=style.css.map */

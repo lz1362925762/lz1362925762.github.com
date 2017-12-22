@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+html,body,.box{
+    width: 100%;
+    height: 100%;
+}
+@function num($n){
+    @return $n/100 + rem;
+}
+
+header{
+    width: num(440);
+    height: num(35);
+    background-color: #fff;
+    display: flex;
+    padding: num(16) num(17) num(15) num(23);
+//  justify-content: space-between;
+    align-items: center;
+    img{
+        width: num(158);
+        height: num(38);
+        float: left;
+    }
+    span{
+        font-size: num(17);
+        float: left;
+        margin-left:num(22);
+        color: #cccccc;
+    }
+    .list{
+        float: left;
+        margin-left: num(163);
+        p{
+            width: num(29);
+            height: num(3);
+            background-color: #666666;
+            margin-bottom: num(4);
+        }
+    }
+}
+section{
+    width: num(480);
+    height: num(211);
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+      .swiper-wrapper{
+          width: 100%;
+          height: 100%;
+          img{
+          display: block;
+          width: num(480);
+          height: num(211);
+          
+            }
+      }
+      
+      
+    }
+}
+.area{
+    width: num(480);
+    height: num(290);
+    background-color: #fff;
+    overflow: hidden;
+    .tit{
+        width: num(451);
+        height: num(21);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: num(21) num(14) num(18) num(15);
+        span{
+            font-size: num(21);
+            &:nth-child(2){
+                font-size: num(18);
+            }
+        }
+    }
+    .swiper-container-2{
+      width: 100%;
+      height: num(230);
+        .swiper-wrapper{
+            width: num(126);
+            height: 100%;
+           .swiper-slide{
+//          width: num(126);
+            height: num(207);
+            text-align: center;
+            display: block;
+            .img1{
+                display: block;
+//              width: num(126);
+                height: num(169);
+            }
+            .p1{
+                display: block;
+                font-size: num(14);
+                margin-top: num(20);
+            }
+        }
+        }
+       
+    }
+}
+.t{
+    width: num(480);
+    height: num(18);
+    background-color: #f2f2f2;
+}
+.area1{
+    width: num(480);
+    height: 100%;
+    .tit1{
+        width: num(465);
+        height: num(42);
+        padding: num(21) 0 0 num(15);
+        p{
+            font-size: num(20);
+        }
+    }
+    .test{
+        width: num(462);
+        height: num(127);
+        margin-left: num(18);
+        img{
+            width: num(192);
+            height: num(120);
+            float: left;
+        }
+        .div2{
+            float: left;
+            p{
+                font-size: num(23);
+                margin-left: num(18);
+                &:nth-child(2){
+                    margin-top: num(37);
+                    span{
+                        display: inline-block;
+                        border:1px solid #88c7f9;
+                        box-sizing: border-box;
+                        color: #88c7f8;
+                        padding: num(2);
+                        margin-left: num(13);
+                    }
+                }
+            }
+        }
+    }
+}
+footer{
+    width: num(480);
+    height: num(64);
+    box-sizing: border-box;
+    border-top: 2px solid #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+    div{
+        float: left;
+        width: num(50);
+        height: 100%;
+        margin-right: num(40);
+        
+        text-align: center;
+        &:nth-child(1){
+            margin-left: num(44);
+        }
+        
+        img{
+            display: block;
+            margin-top: num(6);
+            margin-left: num(9);
+           
+        }
+        .img2{
+            width: num(32);
+            height: num(29);
+            
+        }
+        .img3{
+            width: num(28);
+            height: num(31);
+        }
+        .img4{
+            width: num(32);
+            height: num(29);
+        }
+        .img5{
+            width: num(28);
+            height: num(29);
+        }
+        .img6{
+            width: num(32);
+            height: num(31);
+        }
+        p{
+            font-size: num(16);
+            margin-top: num(8);
+        }
+    }
+}
